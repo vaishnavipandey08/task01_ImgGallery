@@ -21,14 +21,6 @@ The **Nature Gallery** is an image gallery web application that displays a beaut
 3. Browse through the images by clicking the thumbnails.
 4. Use the next/previous buttons to navigate between images in the main viewer.
 
-
-## Screenshots
-- **Main Gallery View**  
-  ![Screenshot](URL-to-Screenshot-1)
-
-- **Image Viewer**  
-  ![Screenshot](URL-to-Screenshot-2)
-
 ## Future Enhancements
 - Adding **categories or filters** to organize images by theme (e.g., mountains, rivers, forests).
 - Implementing **lazy loading** for better performance on larger image sets.
