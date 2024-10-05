@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="gallery-title">The Nature Gallery</h1>
+    <div class="gallery-container">
+        <div class="gallery">
+            <img id="mainImage" src="./main_image.jpg" alt="Gallery Image">
+        </div>
+        <div class="thumbnails">
+            <img class="thumbnail" src="./main_image.jpg" alt="Image 1" onclick="changeImage('./main_image.jpg')">
+            <img class="thumbnail" src="./image2.webp" alt="Image 2" onclick="changeImage('./image2.webp')">
+            <img class="thumbnail" src="./image3.jpg" alt="Image 3" onclick="changeImage('./image3.jpg')">
+            <img class="thumbnail" src="./image4.jpg" alt="Image 4" onclick="changeImage('./image4.jpg')">
+            <img class="thumbnail" src="./image5.jpg" alt="Image 4" onclick="changeImage('./image5.jpg')">
+            <img class="thumbnail" src="./image6.jpg" alt="Image 4" onclick="changeImage('./image6.jpg')">
+            <img class="thumbnail" src="./image7.jpg" alt="Image 4" onclick="changeImage('./image7.jpg')">
+        </div>
+    </div>
+ 
+    <script src="app.js"></script>
+</body>
+</html>
